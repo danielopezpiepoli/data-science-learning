@@ -1,8 +1,16 @@
-﻿__pycache__/
-*.pyc
-.ipynb_checkpoints/
+﻿# Virtual environments and dependencies
 .venv/
 env/
+venv/
+ENV/
+
+# System, Python cache, and compiled bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Secrets and environment variables
 *.env
-*.csv
-!04_tutorials/personal_finance_tracker/finance_data.csv
+.env
