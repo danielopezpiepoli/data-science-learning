@@ -1,0 +1,8 @@
+﻿__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+env/
+*.env
+*.csv
+!04_tutorials/personal_finance_tracker/finance_data.csv
